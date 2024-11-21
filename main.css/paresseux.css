@@ -1,0 +1,562 @@
+.paresseux,
+.paresseux * {
+  box-sizing: border-box;
+}
+.paresseux {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.paresseux2 {
+  background: var(
+    --jungle,
+    linear-gradient(
+      180deg,
+      rgba(12, 89, 58, 1) 21.99999988079071%,
+      rgba(26, 191, 124, 1) 86.50000095367432%
+    )
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 133px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1358px;
+  position: relative;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  row-gap: 133px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-shrink: 0;
+  width: 1288px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 71px;
+  position: relative;
+}
+.nav2 {
+  background: #123018;
+  border-radius: 30px;
+  padding: 0px 30px 0px 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59px;
+  position: relative;
+  overflow: hidden;
+}
+.nav-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  height: 59px;
+  position: relative;
+}
+.accueil {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.habitat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 104px;
+  height: 35px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 101px;
+  height: 35px;
+}
+.connexion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 145px;
+  height: 35px;
+}
+.logo {
+  padding: 52px 0px 24px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 230px;
+  height: 135px;
+  position: absolute;
+  left: -50px;
+  top: -38px;
+}
+.logo2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 134px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.zoo-arcadia {
+  color: #192b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  width: 125px;
+  height: 53px;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1288px;
+  height: 457px;
+  position: relative;
+}
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 662px;
+  height: 406px;
+  position: relative;
+}
+.un-nom-qui-en-dit-long-pour-qui-a-du-temps-rien-ne-presse-si-parfois-le-nom-d-une-esp-ce-peut-para-tre-trange-et-ne-rien-d-voiler-sur-l-animal-qui-le-porte-ce-n-est-pas-le-cas-du-paresseux-la-l-gendaire-lenteur-de-l-animal-vient-de-son-m-tabolisme-extr-mement-lent-ainsi-il-dort-jusqu-15-h-en-une-journ-e-et-met-une-semaine-pour-dig-rer-compl-tement-un-repas-le-reste-du-temps-il-se-d-place-tr-s-doucement-pour-conomiser-son-nergie-suspendu-la-t-te-en-bas-aux-branches-des-arbres-il-ne-se-d-place-qu-la-vitesse-de-38-m-tres-par-jour-il-peut-descendre-sur-terre-o-il-est-bien-moins-l-aise-pour-changer-d-arbre-ou-trouver-sa-nourriture {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  width: 642px;
+  height: 296px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.un-nom-qui-en-dit-long-pour-qui-a-du-temps-rien-ne-presse-si-parfois-le-nom-d-une-esp-ce-peut-para-tre-trange-et-ne-rien-d-voiler-sur-l-animal-qui-le-porte-ce-n-est-pas-le-cas-du-paresseux-la-l-gendaire-lenteur-de-l-animal-vient-de-son-m-tabolisme-extr-mement-lent-ainsi-il-dort-jusqu-15-h-en-une-journ-e-et-met-une-semaine-pour-dig-rer-compl-tement-un-repas-le-reste-du-temps-il-se-d-place-tr-s-doucement-pour-conomiser-son-nergie-suspendu-la-t-te-en-bas-aux-branches-des-arbres-il-ne-se-d-place-qu-la-vitesse-de-38-m-tres-par-jour-il-peut-descendre-sur-terre-o-il-est-bien-moins-l-aise-pour-changer-d-arbre-ou-trouver-sa-nourriture-span {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.un-nom-qui-en-dit-long-pour-qui-a-du-temps-rien-ne-presse-si-parfois-le-nom-d-une-esp-ce-peut-para-tre-trange-et-ne-rien-d-voiler-sur-l-animal-qui-le-porte-ce-n-est-pas-le-cas-du-paresseux-la-l-gendaire-lenteur-de-l-animal-vient-de-son-m-tabolisme-extr-mement-lent-ainsi-il-dort-jusqu-15-h-en-une-journ-e-et-met-une-semaine-pour-dig-rer-compl-tement-un-repas-le-reste-du-temps-il-se-d-place-tr-s-doucement-pour-conomiser-son-nergie-suspendu-la-t-te-en-bas-aux-branches-des-arbres-il-ne-se-d-place-qu-la-vitesse-de-38-m-tres-par-jour-il-peut-descendre-sur-terre-o-il-est-bien-moins-l-aise-pour-changer-d-arbre-ou-trouver-sa-nourriture-span2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.image {
+  border-radius: 184px 225px 162px 113px;
+  flex-shrink: 0;
+  width: 550px;
+  height: 406px;
+  position: relative;
+  object-fit: cover;
+}
+.image2 {
+  border-radius: 171px 172px 207.5px 180px;
+  flex-shrink: 0;
+  width: 474px;
+  height: 415px;
+  position: relative;
+  object-fit: cover;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.notes-v-t-rinaires-01-011-2024-etat-de-l-animal-bonne-sant-nourriture-feuilles-de-bourgeons-de-fruits-et-de-fleurs-quantit-recommand-300-g {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 638px;
+  height: 170px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.footer {
+  background: #0c593a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 337px;
+  position: relative;
+}
+.div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 242px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 191px;
+  position: relative;
+}
+.p3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.propos-du-zoo-nos-habitats-services-contact-mentions-l-gales-politique-de-confidentialit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.horaires-d-ouverture-lundi-dimanche-9-h-30-20-h-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 399px;
+  position: relative;
+}
+.p4 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.img2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-arcadia-zoonature-fr {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.img3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.adresse-123-avenue-de-la-faune-75000-paris {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 365px;
+  height: 23px;
+}
+.p6 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  overflow: visible;
+}
+.img5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 234px;
+  height: 35px;
+  position: relative;
+}
+.t-l-phone-33-1-23-45-67-89 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 224px;
+  height: 25px;
+}
+.line-1 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 1399px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.143deg) scale(1, 1);
+}
+.div5 {
+  display: flex;
+  flex-direction: row;
+  gap: 323px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 84px;
+  position: relative;
+}
+.arcadia {
+  background: linear-gradient(
+    270deg,
+    rgba(77, 122, 104, 1) 0%,
+    rgba(77, 122, 104, 1) 28.562596440315247%,
+    rgba(141, 224, 191, 1) 100%,
+    rgba(85, 135, 115, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 154px;
+  height: 53px;
+}
+._2023-arcadia-tous-droits-r-serv-s {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p7 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 258px;
+  height: 89px;
+  position: relative;
+}
+.suivez-nous-facebook-instagram-twitter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 244px;
+  height: 79px;
+}
+.suivez-nous-facebook-instagram-twitter-span {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span2 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.suivez-nous-facebook-instagram-twitter-span3 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span4 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.6rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+.blank-line {
+  margin: 11;
+}
+.accueil-parent {
+    width: 600px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

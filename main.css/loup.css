@@ -1,0 +1,575 @@
+.loup,
+.loup * {
+  box-sizing: border-box;
+}
+.loup {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.head {
+  background: var(
+    --whithe,
+    linear-gradient(
+      180deg,
+      rgba(248, 240, 240, 1) 0%,
+      rgba(153, 153, 153, 1) 100%
+    )
+  );
+  display: flex;
+  flex-direction: row;
+  gap: 133px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1358px;
+  position: relative;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 444px;
+  position: relative;
+}
+.head2 {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  row-gap: 151px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-shrink: 0;
+  width: 1288px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 67px;
+  position: relative;
+}
+.nav2 {
+  background: #3f4241;
+  border-radius: 30px;
+  padding: 0px 30px 0px 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  height: 59px;
+  position: relative;
+}
+.accueil {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.habitat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 104px;
+  height: 35px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 101px;
+  height: 35px;
+}
+.connexion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 145px;
+  height: 35px;
+}
+.logo {
+  padding: 52px 0px 24px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 230px;
+  height: 135px;
+  position: absolute;
+  left: -50px;
+  top: -38px;
+}
+.logo2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 134px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.zoo-arcadia {
+  color: #192b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  width: 125px;
+  height: 53px;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1288px;
+  height: 457px;
+  position: relative;
+}
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 685px;
+  height: 407px;
+  position: relative;
+}
+.une-esp-ce-vivant-en-meute-le-groupe-c-est-la-famille-tous-les-loups-vivent-en-meute-et-le-loup-arctique-sous-esp-ce-du-loup-gris-ne-fait-pas-exception-cette-r-gle-les-groupes-peuvent-aller-jusqu-plus-de-30-individus-mais-la-plupart-du-temps-ils-ne-sont-form-s-que-de-5-12-individus-la-meute-est-domin-e-par-un-m-le-et-une-femelle-alpha-qui-sont-les-seuls-avoir-le-droit-de-se-reproduire-sauf-cas-exceptionnels-la-meute-de-beauval-tait-initialement-compos-e-de-3-individus-mais-deux-port-es-du-couple-alpha-sont-venues-augmenter-le-nombre-total-d-individus-12-les-derniers-louveteaux-ont-vu-le-jour-en-avril-2022 {
+  color: #000000;
+  text-align: left;
+  position: relative;
+  width: 685px;
+  height: 357px;
+  -webkit-text-stroke: 1px #000000;
+}
+.une-esp-ce-vivant-en-meute-le-groupe-c-est-la-famille-tous-les-loups-vivent-en-meute-et-le-loup-arctique-sous-esp-ce-du-loup-gris-ne-fait-pas-exception-cette-r-gle-les-groupes-peuvent-aller-jusqu-plus-de-30-individus-mais-la-plupart-du-temps-ils-ne-sont-form-s-que-de-5-12-individus-la-meute-est-domin-e-par-un-m-le-et-une-femelle-alpha-qui-sont-les-seuls-avoir-le-droit-de-se-reproduire-sauf-cas-exceptionnels-la-meute-de-beauval-tait-initialement-compos-e-de-3-individus-mais-deux-port-es-du-couple-alpha-sont-venues-augmenter-le-nombre-total-d-individus-12-les-derniers-louveteaux-ont-vu-le-jour-en-avril-2022-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.une-esp-ce-vivant-en-meute-le-groupe-c-est-la-famille-tous-les-loups-vivent-en-meute-et-le-loup-arctique-sous-esp-ce-du-loup-gris-ne-fait-pas-exception-cette-r-gle-les-groupes-peuvent-aller-jusqu-plus-de-30-individus-mais-la-plupart-du-temps-ils-ne-sont-form-s-que-de-5-12-individus-la-meute-est-domin-e-par-un-m-le-et-une-femelle-alpha-qui-sont-les-seuls-avoir-le-droit-de-se-reproduire-sauf-cas-exceptionnels-la-meute-de-beauval-tait-initialement-compos-e-de-3-individus-mais-deux-port-es-du-couple-alpha-sont-venues-augmenter-le-nombre-total-d-individus-12-les-derniers-louveteaux-ont-vu-le-jour-en-avril-2022-span2 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.image {
+  border-radius: 104px 68px 88px 148px;
+  flex-shrink: 0;
+  width: 550px;
+  height: 406px;
+  position: relative;
+  object-fit: cover;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 638px;
+  height: 302px;
+  position: relative;
+}
+.les-loups-arctiques-de-beauval-lors-de-votre-passage-beauval-vous-aurez-peut-tre-la-chance-d-entendre-le-hurlement-de-nos-loups-audible-10-km-la-ronde-vous-ne-pourrez-pas-manquer-ce-cri-si-particulier-quel-que-soit-l-endroit-o-vous-vous-trouvez-dans-le-parc-notes-v-t-rinaires-09-011-2024-etat-de-l-animal-bonne-sant-nourriture-b-uf-quantit-recommand-1500-g {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 629px;
+  height: 316px;
+  -webkit-text-stroke: 1px #000000;
+}
+.image2 {
+  border-radius: 128px 114px 71px 56px;
+  flex-shrink: 0;
+  width: 513px;
+  height: 386px;
+  position: relative;
+  object-fit: cover;
+}
+.footer {
+  background: #9a9a9a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 337px;
+  position: relative;
+}
+.div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 242px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 191px;
+  position: relative;
+}
+.p3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.propos-du-zoo-nos-habitats-services-contact-mentions-l-gales-politique-de-confidentialit {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.horaires-d-ouverture-lundi-dimanche-9-h-30-20-h-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p4 {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 399px;
+  position: relative;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.img3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-arcadia-zoonature-fr {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.img4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.img5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.adresse-123-avenue-de-la-faune-75000-paris {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 365px;
+  height: 23px;
+}
+.img6 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img7 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  overflow: visible;
+}
+.img8 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 234px;
+  height: 35px;
+  position: relative;
+}
+.t-l-phone-33-1-23-45-67-89 {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 224px;
+  height: 25px;
+}
+.line-1 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 1399px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.143deg) scale(1, 1);
+}
+.div4 {
+  display: flex;
+  flex-direction: row;
+  gap: 323px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 84px;
+  position: relative;
+}
+.arcadia {
+  background: linear-gradient(
+    270deg,
+    rgba(108, 111, 105, 1) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(54, 56, 52, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 154px;
+  height: 53px;
+}
+._2023-arcadia-tous-droits-r-serv-s {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 258px;
+  height: 89px;
+  position: relative;
+}
+.suivez-nous-facebook-instagram-twitter {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 244px;
+  height: 79px;
+}
+.suivez-nous-facebook-instagram-twitter-span {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span2 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.suivez-nous-facebook-instagram-twitter-span3 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span4 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.6rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+.blank-line {
+  margin: 11;
+}
+.accueil-parent {
+    width: 600px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,554 @@
+.guepard,
+.guepard * {
+  box-sizing: border-box;
+}
+.guepard {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.head {
+  background: var(
+    --savane,
+    linear-gradient(180deg, rgba(255, 187, 0, 1) 0%, rgba(153, 112, 0, 1) 100%)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 155px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1255px;
+  position: relative;
+}
+.head2 {
+  display: flex;
+  flex-direction: row;
+  gap: 202px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 1255px;
+  position: relative;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  gap: 87px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 1255px;
+  position: relative;
+}
+.head3 {
+  display: flex;
+  flex-direction: row;
+  gap: 68px;
+  row-gap: 183px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-shrink: 0;
+  width: 1273px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 67px;
+  position: relative;
+}
+.nav2 {
+  background: #735810;
+  border-radius: 30px;
+  padding: 0px 30px 0px 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  height: 59px;
+  position: relative;
+}
+.accueil {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.habitat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 104px;
+  height: 35px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 101px;
+  height: 35px;
+}
+.connexion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 145px;
+  height: 35px;
+}
+.logo {
+  padding: 52px 0px 24px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 230px;
+  height: 135px;
+  position: absolute;
+  left: -50px;
+  top: -38px;
+}
+.logo2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 134px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.zoo-arcadia {
+  color: #192b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  width: 125px;
+  height: 53px;
+}
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.des-caract-ristiques-physiques-uniques-connu-pour-tre-le-roi-du-sprint-le-gu-pard-poss-de-des-atouts-hors-du-commun-mammif-re-carnassier-le-gu-pard-est-le-plus-athl-tique-des-f-lins-de-la-famille-des-f-lid-s-ce-carnivore-originaire-d-afrique-et-d-asie-de-l-ouest-poss-de-des-atouts-qu-aucun-autre-animal-ne-r-unit-un-corps-lanc-au-squelette-taill-pour-la-course-une-longue-queue-servant-de-balancier-de-longues-pattes-aux-griffes-non-r-tractiles-pour-mieux-adh-rer-au-sol-un-pelage-tachet-pour-se-fondre-dans-son-environnement-le-gu-pard-est-un-chasseur-hors-pair-qui-a-comme-principaux-avantages-sur-ses-proies-la-vitesse-il-peut-atteindre-des-pointes-de-vitesse-jusqu-110-km-h-et-l-agilit {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  width: 732px;
+  height: 348px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.des-caract-ristiques-physiques-uniques-connu-pour-tre-le-roi-du-sprint-le-gu-pard-poss-de-des-atouts-hors-du-commun-mammif-re-carnassier-le-gu-pard-est-le-plus-athl-tique-des-f-lins-de-la-famille-des-f-lid-s-ce-carnivore-originaire-d-afrique-et-d-asie-de-l-ouest-poss-de-des-atouts-qu-aucun-autre-animal-ne-r-unit-un-corps-lanc-au-squelette-taill-pour-la-course-une-longue-queue-servant-de-balancier-de-longues-pattes-aux-griffes-non-r-tractiles-pour-mieux-adh-rer-au-sol-un-pelage-tachet-pour-se-fondre-dans-son-environnement-le-gu-pard-est-un-chasseur-hors-pair-qui-a-comme-principaux-avantages-sur-ses-proies-la-vitesse-il-peut-atteindre-des-pointes-de-vitesse-jusqu-110-km-h-et-l-agilit-span {
+  color: #ffffff;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.des-caract-ristiques-physiques-uniques-connu-pour-tre-le-roi-du-sprint-le-gu-pard-poss-de-des-atouts-hors-du-commun-mammif-re-carnassier-le-gu-pard-est-le-plus-athl-tique-des-f-lins-de-la-famille-des-f-lid-s-ce-carnivore-originaire-d-afrique-et-d-asie-de-l-ouest-poss-de-des-atouts-qu-aucun-autre-animal-ne-r-unit-un-corps-lanc-au-squelette-taill-pour-la-course-une-longue-queue-servant-de-balancier-de-longues-pattes-aux-griffes-non-r-tractiles-pour-mieux-adh-rer-au-sol-un-pelage-tachet-pour-se-fondre-dans-son-environnement-le-gu-pard-est-un-chasseur-hors-pair-qui-a-comme-principaux-avantages-sur-ses-proies-la-vitesse-il-peut-atteindre-des-pointes-de-vitesse-jusqu-110-km-h-et-l-agilit-span2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.des-caract-ristiques-physiques-uniques-connu-pour-tre-le-roi-du-sprint-le-gu-pard-poss-de-des-atouts-hors-du-commun-mammif-re-carnassier-le-gu-pard-est-le-plus-athl-tique-des-f-lins-de-la-famille-des-f-lid-s-ce-carnivore-originaire-d-afrique-et-d-asie-de-l-ouest-poss-de-des-atouts-qu-aucun-autre-animal-ne-r-unit-un-corps-lanc-au-squelette-taill-pour-la-course-une-longue-queue-servant-de-balancier-de-longues-pattes-aux-griffes-non-r-tractiles-pour-mieux-adh-rer-au-sol-un-pelage-tachet-pour-se-fondre-dans-son-environnement-le-gu-pard-est-un-chasseur-hors-pair-qui-a-comme-principaux-avantages-sur-ses-proies-la-vitesse-il-peut-atteindre-des-pointes-de-vitesse-jusqu-110-km-h-et-l-agilit-span3 {
+  color: #ffffff;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.des-caract-ristiques-physiques-uniques-connu-pour-tre-le-roi-du-sprint-le-gu-pard-poss-de-des-atouts-hors-du-commun-mammif-re-carnassier-le-gu-pard-est-le-plus-athl-tique-des-f-lins-de-la-famille-des-f-lid-s-ce-carnivore-originaire-d-afrique-et-d-asie-de-l-ouest-poss-de-des-atouts-qu-aucun-autre-animal-ne-r-unit-un-corps-lanc-au-squelette-taill-pour-la-course-une-longue-queue-servant-de-balancier-de-longues-pattes-aux-griffes-non-r-tractiles-pour-mieux-adh-rer-au-sol-un-pelage-tachet-pour-se-fondre-dans-son-environnement-le-gu-pard-est-un-chasseur-hors-pair-qui-a-comme-principaux-avantages-sur-ses-proies-la-vitesse-il-peut-atteindre-des-pointes-de-vitesse-jusqu-110-km-h-et-l-agilit-span4 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.image-12 {
+  border-radius: 149px 125px 219px 228px;
+  flex-shrink: 0;
+  width: 450px;
+  height: 381px;
+  position: relative;
+  object-fit: cover;
+}
+.image-13 {
+  border-radius: 172px 123px 175px 115px;
+  flex-shrink: 0;
+  width: 502px;
+  height: 309px;
+  position: relative;
+  object-fit: cover;
+}
+.ainsi-pour-communiquer-les-gu-pards-utilisent-des-grognements-des-ronronnements-des-gazouillis-des-miaulements-et-des-hurlements-en-fonction-du-contexte-les-moyens-de-communication-changent-l-tude-en-cours-devra-d-terminer-ce-qu-ils-semblent-signifier-notes-v-t-rinaires-04-011-2024-etat-de-l-animal-bonne-sant-nourriture-nourriture-pour-f-lins-quantit-recommand-2000-g {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 547px;
+  height: 290px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.footer {
+  background: #a87b00;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 321px;
+  position: relative;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 242px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 191px;
+  position: relative;
+}
+.propos-du-zoo-nos-habitats-services-contact-mentions-l-gales-politique-de-confidentialit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.horaires-d-ouverture-lundi-dimanche-9-h-30-20-h-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 399px;
+  position: relative;
+}
+.p2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.img2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-arcadia-zoonature-fr {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.img3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.adresse-123-avenue-de-la-faune-75000-paris {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 365px;
+  height: 23px;
+}
+.p4 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  overflow: visible;
+}
+.img5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 234px;
+  height: 35px;
+  position: relative;
+}
+.t-l-phone-33-1-23-45-67-89 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 224px;
+  height: 25px;
+}
+.line-1 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 1399px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.143deg) scale(1, 1);
+}
+.div4 {
+  display: flex;
+  flex-direction: row;
+  gap: 323px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 84px;
+  position: relative;
+}
+.arcadia {
+  background: linear-gradient(
+    270deg,
+    rgba(51, 37, 0, 1) 0%,
+    rgba(199, 170, 90, 1) 0.009999999747378752%,
+    rgba(150, 126, 60, 1) 15.999999642372131%,
+    rgba(249, 214, 120, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 154px;
+  height: 53px;
+}
+._2023-arcadia-tous-droits-r-serv-s {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 258px;
+  height: 89px;
+  position: relative;
+}
+.suivez-nous-facebook-instagram-twitter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 244px;
+  height: 79px;
+}
+.suivez-nous-facebook-instagram-twitter-span {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span2 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.suivez-nous-facebook-instagram-twitter-span3 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span4 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.6rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+.blank-line {
+  margin: 11;
+}
+.accueil-parent {
+  width: 600px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

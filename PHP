@@ -1,0 +1,27 @@
+public function filterReports(Request $request) {
+    $query = VeterinaryReport::query();
+
+    if ($request->filled('animal')) {
+        $query->whereHas('animal', function($q) use ($request) {
+            $q->where('name', 'like', '%' . $request->animal . '%');
+        });
+    }
+
+    if ($request->filled('date')) {
+        $query->whereDate('created_at', $request->date);
+    }
+
+    $reports = $query->get();
+
+    return response()->json($reports);
+}
+//Identifiants par défaut :
+Administrateur :
+Email (username) : admin@zoo.com
+Mot de passe : Admin1234
+Employé :
+Email (username) : employe@zoo.com
+Mot de passe : Employe1234
+Vétérinaire :
+Email (username) : veterinaire@zoo.com
+Mot de passe : Veterinaire1234

@@ -1,0 +1,4 @@
+INSERT INTO utilisateurs (username, password, role) VALUES
+('admin@zoo.com', '$2y$10$abcdef1234567890abcdef1234567890abcdef1234567890abcdef123456', 'administrateur'),
+('employe@zoo.com', '$2y$10$abcdef1234567890abcdef1234567890abcdef1234567890abcdef123456', 'employe'),
+('veterinaire@zoo.com', '$2y$10$abcdef1234567890abcdef1234567890abcdef1234567890abcdef123456', 'veterinaire');

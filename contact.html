@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez le Zoo</title>
+  <style>
+    /* Image d'arrière-plan */
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('assets/contact.png');  /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;  /* L'image reste fixe lors du défilement */
+      background-repeat: no-repeat;
+    }
+
+    /* Style de la carte de contact */
+    .contact-card {
+      background-color: rgba(255, 255, 255, 0.9);  /* Fond blanc semi-transparent */
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    /* Titre de la carte */
+    .contact-card h2 {
+      text-align: center;
+      color: #098476;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Style des champs du formulaire */
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1.2rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+
+    /* Effet de focus pour les champs */
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #064d56;
+      outline: none;
+    }
+
+    /* Style du bouton de soumission */
+    .contact-form button {
+      width: 100%;
+      padding: 0.8rem;
+      background-color: #0c686c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #0a434f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-card">
+    <h2>Contactez le Zoo</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required placeholder="Votre nom">
+
+      <label for="email">Adresse e-mail</label>
+      <input type="email" id="email" name="email" required placeholder="Votre adresse e-mail">
+
+      <label for="subject">Objet</label>
+      <input type="text" id="subject" name="subject" required placeholder="Objet de votre message">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
+</body>
+</html>

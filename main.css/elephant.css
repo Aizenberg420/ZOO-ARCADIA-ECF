@@ -1,0 +1,536 @@
+.elephant,
+.elephant * {
+  box-sizing: border-box;
+}
+.elephant {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.head {
+  background: var(
+    --savane,
+    linear-gradient(180deg, rgba(255, 187, 0, 1) 0%, rgba(153, 112, 0, 1) 100%)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 145px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1334px;
+  position: relative;
+}
+.head2 {
+  display: flex;
+  flex-direction: row;
+  gap: 145px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1327px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 71px;
+  position: relative;
+}
+.nav2 {
+  background: #594306;
+  border-radius: 30px;
+  padding: 0px 30px 0px 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59px;
+  position: relative;
+  overflow: hidden;
+}
+.nav-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  height: 59px;
+  position: relative;
+}
+.accueil {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.habitat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 104px;
+  height: 35px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 101px;
+  height: 35px;
+}
+.connexion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 145px;
+  height: 35px;
+}
+.logo {
+  padding: 52px 0px 24px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 230px;
+  height: 135px;
+  position: absolute;
+  left: -50px;
+  top: -38px;
+}
+.logo2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 134px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.zoo-arcadia {
+  color: #192b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  width: 125px;
+  height: 53px;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.le-plus-gros-mammif-re-terrestre-le-champion-des-poids-lourds-l-l-phant-d-afrique-des-savanes-peut-peser-plus-de-7-tonnes-et-mesurer-jusqu-4-m-tres-de-hauteur-les-seuls-animaux-pouvant-rivaliser-avec-lui-au-concours-de-l-animal-le-plus-lourd-sont-les-c-tac-s-comme-la-baleine-bleue-aucun-mammif-re-terrestre-n-est-la-hauteur-pour-alimenter-ces-g-ants-il-faut-d-normes-quantit-s-de-nourriture-chaque-individu-pr-sent-beauval-ing-re-quotidiennement-100-150-kg-de-v-g-taux-en-tous-genres-fruits-feuilles-branches-ainsi-qu-une-centaine-de-litres-d-eau-des-repas-que-l-on-peut-qualifier-sans-peine-d-l-phantesques {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  width: 607px;
+  height: 407px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.le-plus-gros-mammif-re-terrestre-le-champion-des-poids-lourds-l-l-phant-d-afrique-des-savanes-peut-peser-plus-de-7-tonnes-et-mesurer-jusqu-4-m-tres-de-hauteur-les-seuls-animaux-pouvant-rivaliser-avec-lui-au-concours-de-l-animal-le-plus-lourd-sont-les-c-tac-s-comme-la-baleine-bleue-aucun-mammif-re-terrestre-n-est-la-hauteur-pour-alimenter-ces-g-ants-il-faut-d-normes-quantit-s-de-nourriture-chaque-individu-pr-sent-beauval-ing-re-quotidiennement-100-150-kg-de-v-g-taux-en-tous-genres-fruits-feuilles-branches-ainsi-qu-une-centaine-de-litres-d-eau-des-repas-que-l-on-peut-qualifier-sans-peine-d-l-phantesques-span {
+  color: #ffffff;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.le-plus-gros-mammif-re-terrestre-le-champion-des-poids-lourds-l-l-phant-d-afrique-des-savanes-peut-peser-plus-de-7-tonnes-et-mesurer-jusqu-4-m-tres-de-hauteur-les-seuls-animaux-pouvant-rivaliser-avec-lui-au-concours-de-l-animal-le-plus-lourd-sont-les-c-tac-s-comme-la-baleine-bleue-aucun-mammif-re-terrestre-n-est-la-hauteur-pour-alimenter-ces-g-ants-il-faut-d-normes-quantit-s-de-nourriture-chaque-individu-pr-sent-beauval-ing-re-quotidiennement-100-150-kg-de-v-g-taux-en-tous-genres-fruits-feuilles-branches-ainsi-qu-une-centaine-de-litres-d-eau-des-repas-que-l-on-peut-qualifier-sans-peine-d-l-phantesques-span2 {
+  color: #ffffff;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.image {
+  border-radius: 196px 180px 143px 111px;
+  flex-shrink: 0;
+  width: 555px;
+  height: 416px;
+  position: relative;
+  object-fit: cover;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1270px;
+  height: 434px;
+  position: relative;
+}
+.image2 {
+  border-radius: 161px 242px 202px 149px;
+  flex-shrink: 0;
+  width: 555px;
+  height: 416px;
+  position: relative;
+  object-fit: cover;
+}
+.le-rombo-group-ranch-au-sud-du-kenya-abrite-des-milieux-naturels-encore-intacts-c-est-un-lieu-de-conservation-privil-gi-pour-de-nombreuses-esp-ces-menac-es-telles-que-l-l-phant-cependant-les-l-phants-sont-en-proie-aux-braconniers-d-ivoire-et-la-chasse-ill-gale-l-association-beauval-nature-soutient-la-fondation-big-life-qui-a-initi-entre-autres-un-ambitieux-projet-de-surveillance-et-de-lutte-contre-le-braconnage-au-sein-du-ranch-ainsi-plus-de-250-rangers-ont-t-recrut-s-parmi-la-population-locale-afin-d-assurer-des-patrouilles-quotidiennes-et-une-surveillance-mobile-au-sein-du-ranch-notes-v-t-rinaires-02-011-2024-etat-de-l-animal-bonne-sant-nourriture-feuilles-et-branches-quantit-recommand-10000-g {
+  color: #ffffff;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 615px;
+  height: 371px;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.footer {
+  background: #a87b00;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 337px;
+  position: relative;
+}
+.div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 242px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 191px;
+  position: relative;
+}
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.propos-du-zoo-nos-habitats-services-contact-mentions-l-gales-politique-de-confidentialit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.horaires-d-ouverture-lundi-dimanche-9-h-30-20-h-00 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 399px;
+  position: relative;
+}
+.p2 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.img2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-arcadia-zoonature-fr {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.img3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.adresse-123-avenue-de-la-faune-75000-paris {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 365px;
+  height: 23px;
+}
+.p4 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 234px;
+  height: 35px;
+  position: relative;
+}
+.t-l-phone-33-1-23-45-67-89 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 224px;
+  height: 25px;
+}
+.img5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  overflow: visible;
+}
+.line-1 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 1399px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.143deg) scale(1, 1);
+}
+.div5 {
+  display: flex;
+  flex-direction: row;
+  gap: 323px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 84px;
+  position: relative;
+}
+.arcadia {
+  background: linear-gradient(
+    270deg,
+    rgba(51, 37, 0, 1) 0%,
+    rgba(199, 170, 90, 1) 0.009999999747378752%,
+    rgba(150, 126, 60, 1) 15.999999642372131%,
+    rgba(249, 214, 120, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 154px;
+  height: 53px;
+}
+._2023-arcadia-tous-droits-r-serv-s {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 258px;
+  height: 89px;
+  position: relative;
+}
+.suivez-nous-facebook-instagram-twitter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 244px;
+  height: 79px;
+}
+.suivez-nous-facebook-instagram-twitter-span {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span2 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.suivez-nous-facebook-instagram-twitter-span3 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span4 {
+  color: #ffffff;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.6rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+.blank-line {
+  margin: 11;
+}
+.accueil-parent {
+    width: 600px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

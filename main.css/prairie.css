@@ -1,0 +1,703 @@
+.prairie,
+.prairie * {
+  box-sizing: border-box;
+}
+.prairie {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.header {
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 153px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 950px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1294px;
+  height: 87px;
+  position: relative;
+}
+.nav2 {
+  background: linear-gradient(
+    90deg,
+    rgba(206, 213, 201, 1) 0%,
+    rgba(195, 192, 183, 1) 100%
+  );
+  border-radius: 30px;
+  padding: 0px 0px 0px 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 186px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 59px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 600px;
+  height: 59px;
+  position: relative;
+}
+.blank-line {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+  -webkit-text-stroke: 1px #000000;
+}
+.habitat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 90px;
+  height: 35px;
+  -webkit-text-stroke: 1px #000000;
+}
+.services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 104px;
+  height: 35px;
+  -webkit-text-stroke: 1px #000000;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 101px;
+  height: 35px;
+  -webkit-text-stroke: 1px #000000;
+}
+.connexion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 145px;
+  height: 35px;
+  -webkit-text-stroke: 1px #000000;
+}
+.logo {
+  padding: 52px 0px 24px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 230px;
+  height: 135px;
+  position: absolute;
+  left: -50px;
+  top: -25px;
+}
+.logo2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 134px;
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+}
+.zoo-arcadia {
+  color: #192b2d;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 5px;
+  top: -8px;
+  width: 125px;
+  height: 53px;
+}
+.la-prairie-europ-enne {
+  color: #fff4f4;
+  text-align: center;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 5px rgba(30, 30, 30, 0.75);
+}
+.h-2 {
+  background: #e8eaed;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1074px;
+  height: 203px;
+  position: relative;
+}
+.d-couvrez-notre-prairie-europ-enne-un-refuge-o-vivent-loups-cerfs-et-une-vari-t-d-animaux-qui-incarnent-la-richesse-des-paysages-verdoyants-de-l-europe-observez-les-dans-leur-habitat-naturel-et-laissez-vous-surprendre-par-la-beaut-sauvage-de-la-faune-europ-enne {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  width: 1054px;
+  height: 183px;
+}
+.prairie2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  background: var(
+    --whithe,
+    linear-gradient(
+      180deg,
+      rgba(248, 240, 240, 1) 0%,
+      rgba(153, 153, 153, 1) 100%
+    )
+  );
+  display: flex;
+  flex-direction: row;
+  gap: 371px;
+  row-gap: 47px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1024px;
+  position: relative;
+}
+.loup {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 454px;
+  height: 392px;
+  position: relative;
+}
+.image {
+  flex-shrink: 0;
+  width: 261.81px;
+  height: 268.78px;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+}
+.loup-arctique {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: relative;
+}
+.renard {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 308px;
+  height: 375px;
+  position: relative;
+}
+.image2 {
+  flex-shrink: 0;
+  width: 243.09px;
+  height: 192.44px;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+}
+.renard2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: relative;
+}
+.cerf {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 308px;
+  height: 375px;
+  position: relative;
+}
+.image3 {
+  flex-shrink: 0;
+  width: 244.04px;
+  height: 263.14px;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+}
+.cerf2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: relative;
+}
+.footer {
+  background: #9a9a9a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 337px;
+  position: relative;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 242px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 191px;
+  position: relative;
+}
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.propos-du-zoo-nos-habitats-services-contact-mentions-l-gales-politique-de-confidentialit {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.horaires-d-ouverture-lundi-dimanche-9-h-30-20-h-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 399px;
+  position: relative;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.img3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-arcadia-zoonature-fr {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.img4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.img5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.adresse-123-avenue-de-la-faune-75000-paris {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 365px;
+  height: 23px;
+}
+.img6 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.img7 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  overflow: visible;
+}
+.img8 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 234px;
+  height: 35px;
+  position: relative;
+}
+.t-l-phone-33-1-23-45-67-89 {
+  color: #000000;
+  text-align: flex;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 224px;
+  height: 25px;
+}
+.line-1 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  flex-shrink: 0;
+  width: 1399px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.143deg) scale(1, 1);
+}
+.div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 323px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 84px;
+  position: relative;
+}
+.arcadia {
+  background: linear-gradient(
+    270deg,
+    rgba(108, 111, 105, 1) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(54, 56, 52, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 154px;
+  height: 53px;
+}
+._2023-arcadia-tous-droits-r-serv-s {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.p3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 258px;
+  height: 89px;
+  position: relative;
+}
+.suivez-nous-facebook-instagram-twitter {
+  color: #000000;
+  text-align: left;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  width: 244px;
+  height: 79px;
+}
+.suivez-nous-facebook-instagram-twitter-span {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span2 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.suivez-nous-facebook-instagram-twitter-span3 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.suivez-nous-facebook-instagram-twitter-span4 {
+  color: #000000;
+  font-family: "Acme-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.8rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */en savoir plus
+  réserver un billet
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+
+.blank-line {
+  margin: 0;
+}
+.accueil {
+  width: 90px;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.habitat {
+  width: 103px;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+}
+.services {
+  width: 104px;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+}
+.contact {
+  width: 101px;
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.hover-link {
+  text-decoration: none;           /* Pas de soulignement par défaut */
+  font-size: 1,5rem;                 /* Taille de base du texte */
+  transition: all 0.3s ease;       /* Transition douce */
+  color: #fffefe;                     /* Couleur de texte */
+  position: relative;
+}
+
+/* Style au survol */
+.hover-link:hover {
+  font-size: 1.6rem;               /* Légèrement plus grand */
+  color: #c3c1c1;                  /* Couleur du texte au survol */
+}
+
+/* Soulignement au survol */
+.hover-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;                     /* Épaisseur de la ligne */
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;       /* Couleur de la ligne de soulignement */
+  transform: scaleX(0);            /* Ligne cachée initialement */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.hover-link:hover::after {
+  transform: scaleX(1);            /* Afficher la ligne au survol */
+  transform-origin: bottom left;
+}
+.blank-line {
+  margin: 11;
+}
+.accueil-parent {
+    width: 600px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hover-image {
+  width: 300px; /* Taille initiale de l'image */
+  height: auto;
+  transition: transform 0.3s ease; /* Animation fluide */
+  border-radius: 8px; /* Optionnel : coins arrondis */
+}
+
+/* Effet au survol : agrandissement */
+.hover-image:hover {
+  transform: scale(1.2); /* Agrandit l'image à 120% */
+}
+
+/* Supprime le soulignement sur le lien */
+.image-link {
+  text-decoration: none; /* Supprime le soulignement par défaut */
+}
